@@ -1,0 +1,151 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #24272a;
+    /* border-radius: 20px; */
+ 
+}
+#heading {
+    text-align: center;
+    margin: 2em;
+    color: rgb(0, 255, 200);
+    font-size: 1.2em;
+    }
+    .field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding:  0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #24272a;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+input-icon {
+    
+    height: 1.3em;
+    width: 1.3em;
+    fill: rgb(0, 255, 200);
+    }
+    .input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;);
+    }
+
+    .button1 {
+        padding: 0.5em;
+        padding-left: 1.1em;
+        padding-right: 1.1em;
+        border-radius: 5px;
+        margin-right: 0.5em;
+        border: none;
+        outline: none;
+        transition: 0.4s ease-in-out;
+        background-color: #1098fc ;
+        color: rgb(0, 0, 0);
+        }
+        .button2 {
+            padding: 0.5em;
+            padding-left: 2.3em;
+            padding-right: 2.3em;
+            border-radius: 5px;
+            ·border: none;
+            outline: none;
+            transition: 0.4s ease-in-out;
+            background-color: #1098fc ;
+            color: rgb(0, 0, 0);
+            }
+
+
+            .card {
+                background-image: linear-gradient (163deg, #00ff75 0%, #3700ff 100%);
+                /* border-radius: 22px; */
+                transition: all 0.3s;
+                }
+                .card2 {
+                border-radius: 0;
+                transition: all 0.2s;
+                }
+
+textarea{
+    resize: none;
+}
+.space{
+    margin-top:0.3em
+}
+center {
+    
+    display: none;
+    justify-content: center;
+    align-items: center;
+    }
+    
+
+
+
+
+
+
+
+
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 10px;
+    width: 54px;
+    height: 54px;
+    animation: spin 2s linear infinite;
+    position: relative;
+  }
+
+
+  .loader div {
+    width: 8%;
+    height: 24%;
+    background: rgb(128, 128, 128);
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    opacity: 0;
+    border-radius: 50px;
+    box-shadow:0 0 3px rgba(0, 0, 0, 0.2);
+    animation: fade458 1s linear infinite;
+ }
+
+ @keyframes fade458 {
+    from {
+    opacity: 1;
+    }
+    to {
+    opacity: 0.25;
+    }
+    }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  small,
+  p {
+  color: I#fff;
+  text-align: center;
+  }
+  a {
+  text-decoration: none;
+  color: rgb(0, 255, 200);
+  display: none;
+  }
+ 
